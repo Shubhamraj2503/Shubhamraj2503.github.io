@@ -1,0 +1,28 @@
+<HTML>
+<HEAD>
+<TITLE> PRINT THE TABLE </TITLE>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE="JAVASCRIPT">
+
+function calculate(myform){
+
+var m=parseFloat(myform.F.value);
+	
+	var n=1;
+	while(n<=10)
+		{
+			var i=m*n;
+			document.writeln(i+"<br>");
+			n++;
+		}
+		
+}
+
+</SCRIPT>
+<FORM>
+ENTER THE NUMBER: <INPUT TYPE="text" NAME=F SIZE="7">
+<INPUT TYPE="button" VALUE="click" onCLICK="calculate(this.form)">
+</FORM>
+</BODY>
+</HTML>
