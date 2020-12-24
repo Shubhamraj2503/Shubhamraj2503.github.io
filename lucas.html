@@ -1,0 +1,29 @@
+<HTML>
+<HEAD>
+<TITLE> LUCAS SEQUENCE </TITLE>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE="JAVASCRIPT">
+function lucas(myform){
+
+var m=parseFloat(myform.F.value);
+var a=2;
+var c;
+var b=1;
+for(var i=1;i<=m;i++){
+	document.writeln(a+"&nbsp");
+	c=a+b;
+	a=b;
+	b=c;
+	
+	
+}
+}
+
+</SCRIPT>
+<FORM>
+ENTER THE LENGTH OF LUCAS SEQUENCE: <INPUT TYPE="text" NAME=F SIZE="7">
+<INPUT TYPE="button" VALUE="click" onCLICK="lucas(this.form)">
+</FORM>
+</BODY>
+</HTML>
