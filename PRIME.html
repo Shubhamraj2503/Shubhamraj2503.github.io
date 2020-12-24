@@ -1,0 +1,28 @@
+<HTML>
+<HEAD>
+<TITLE> PRIME NUMBERS BETWEEN 1 TO 50 </TITLE>
+<H4> THE PRIME NUMBERS BETWEEN 1 TO 50 ARE: </H4>
+<HR>
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE="JAVASCRIPT">
+
+alert("Displaying Prime numbers")
+
+for(var i=2;i<=50;i++){
+	var notPrime=false;
+	
+	for(var j=2;j<=(i-1);j++){
+		if(i%j===0){
+			notPrime=true;
+		}
+	}
+	
+	if(notPrime===false){
+		document.write(i+"&nbsp");
+	}
+}
+
+</SCRIPT>
+</BODY>
+</HTML>
