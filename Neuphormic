@@ -1,0 +1,22 @@
+<<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twitter</title>
+        <link rel="stylesheet" href="Neuphormic.css">
+    </head>
+<body>
+<h1>Light Source</h1>
+<div class="container">
+    <div class="brand-title">Twitter</div>
+    <div class="inputs">
+        <label>Email</label>
+        <input type="email" placeholder="examplae@test.com">
+        <label>Password</label>
+        <input type="password" placeholder="Min 68 characters long">
+        <button type="submit">Login</button>
+
+    </div>
+    <a href="https://twitter.com/geeky__shubham">Made by shubham</a>
+</div>
+</body>
+</html>
